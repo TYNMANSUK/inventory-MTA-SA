@@ -1,5 +1,7 @@
 
 <img width="1203" height="813" alt="{22E0B362-3CF5-455C-8D9B-617BD94C95A5}" src="https://github.com/user-attachments/assets/d0857eb0-9a9a-49ca-9a8e-3a420960037c" />
+<img width="379" height="171" alt="{F7463D87-44D8-442B-9420-FAC39227187A}" src="https://github.com/user-attachments/assets/e3ced88f-a8f8-47c3-8bd7-ad93ab53e3a7" />
+<img width="453" height="230" alt="{BF3BD2CD-309E-4A24-AAFC-417E499FAA7C}" src="https://github.com/user-attachments/assets/80fc99f8-70b4-4f13-a3fa-6603887a1bf7" />
 
 # Система инвентаря
 
@@ -87,3 +89,4 @@ local newItem = {
 vicinityContainer:addItem(newItem, 1, 1) -- Добавить в ячейку (1, 1)
 
 ```
+
