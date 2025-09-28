@@ -1,3 +1,6 @@
+
+<img width="1203" height="813" alt="{22E0B362-3CF5-455C-8D9B-617BD94C95A5}" src="https://github.com/user-attachments/assets/d0857eb0-9a9a-49ca-9a8e-3a420960037c" />
+
 # Система инвентаря
 
 Система инвентаря для MTA:SA с поддержкой перетаскивания (Drag & Drop), стаков предметов, прочности и категорий.
@@ -82,4 +85,5 @@ local newItem = {
 -- Добавляем предмет в контейнер
 -- Координаты x, y - это ячейки в сетке "vicinity"
 vicinityContainer:addItem(newItem, 1, 1) -- Добавить в ячейку (1, 1)
+
 ```
