@@ -1,0 +1,31 @@
+<meta>
+    <oop>true</oop>
+    <info author="TYNMANSUK"/>
+    
+    <!-- Порядок загрузки важен: сначала классы, затем состояние, утилиты и т.д. -->
+    <script src="modules/oop/class.lua" type="client" />
+    <script src="modules/oop/Container.lua" type="client" />
+    <script src="modules/oop/Panel.lua" type="client" />
+    <script src="modules/oop/VicinityPanel.lua" type="client" />
+    <script src="modules/oop/PlayerInventoryPanel.lua" type="client" />
+    <script src="modules/fonts.lua" type="client" />
+    <script src="modules/state.lua" type="client" />
+    <script src="modules/utils.lua" type="client" />
+    <script src="modules/animations.lua" type="client" />
+    <script src="modules/render.lua" type="client" />
+    <script src="modules/handlers.lua" type="client" />
+    <script src="client.lua" type="client"/>
+    <script src="server.lua" type="server"/>
+    <script src="item_config.lua" type="shared" cache="false" />
+    
+    <file src="assets/fonts/Roboto-Regular.ttf" />
+    <file src="assets/items/1511.png" />
+    <file src="assets/items/1415.png" />
+    <file src="assets/items/1804.png" />
+    
+    <export function="addItem" type="server"/>
+    <export function="removeItem" type="server"/>
+    <export function="getPlayerInventory" type="server"/>
+    <export function="openInventory" type="client"/>
+    <export function="closeInventory" type="client"/>
+</meta>
